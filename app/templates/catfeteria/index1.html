@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos a catfeteria </title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: blanchedalmond;
+        }
+        .image-container {
+            position: relative;
+            width: 60%;
+            max-width: 600px;
+        }
+        .image-container img {
+            width: 100%;
+            display: block;
+            border-radius: 8px;
+        }
+        .button-container {
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            gap: 10px;
+        }
+        .button-container button {
+            background-color: beige;
+            border: none;
+            padding: 6% 30px;
+            font-size: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .button-container button:hover {
+            background-color: #d1c4a9;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="cat.jpeg">
+        <div class="button-container">
+      
+            <button class="Menu2" onclick="location.href= 'Menu2.html' "> Ver Menú </button>
+            <button class="reservar-btn" onclick="location.href='Reserva.html'">Reservar</button>
+        </div>
+    </div>
+</body>
+</html>
